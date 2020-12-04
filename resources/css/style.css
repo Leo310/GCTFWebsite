@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Spectral Normal";
+    src: url(../fonts/spectral-regular.ttf) format("truetype"), url(../fonts/spectral-regular.woff2) format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Teeworlds";
+    src: url(../fonts/knowyour.ttf) format("truetype");
+}
+
+body {
+    font-family: "Spectral Normal", cursive;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Teeworlds", "Spectral Normal", cursive;
+    color: #ffc402;
+}

@@ -1,22 +1,88 @@
 @font-face {
-    font-family: "Spectral Normal";
-    src: url(../fonts/spectral-regular.ttf) format("truetype"), url(../fonts/spectral-regular.woff2) format("woff2");
-    font-style: normal;
-    font-weight: normal;
-}
-
-@font-face {
     font-family: "Teeworlds";
     src: url(../fonts/knowyour.ttf) format("truetype");
 }
 
-body {
-    font-family: "Spectral Normal", cursive;
-    margin: 0;
+/* === Colors === 
+Black: #1a1b2c
+
+*/
+* {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background: #290044;
+    margin: 0;
+    color: #ffe600bb; 
+}
+
+
+/* === NAvigation === */
+
+.header-nav {
+    font-family: 'Teeworlds';
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #000133;
+}
+
+.header-nav > a > img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: .8rem;
+}
+
+.header-nav > ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    right: 0;
+}
+
+.header-nav > ul > li {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 2rem;
+    text-align: center;
+    height: 100%;
+    width: 25%;
+}
+
+.header-nav > ul > li > a {
+    text-decoration-line: none;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.header-nav > ul > li > a:link {
+    color: #ffe600;
+}
+
+.header-nav > ul > li > a:hover {
+    color: #FFF;
+}
+
+.header-nav > ul > li > a:active {
+    color: red;
+}
+
+.header-nav > ul > li > a:visited {
+    color: #ffe600;
+}
+
+.active {
+    background-color: rgb(55, 43, 226);
+
+}
+
 h1 {
-    font-family: "Teeworlds", "Spectral Normal", cursive;
-    color: #ffc402;
+    font-family: Teeworlds;
+    color: #ffe600; 
 }

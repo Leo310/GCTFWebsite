@@ -13,7 +13,7 @@
                 <li><a href="index.php">Home</a></li
                 ><li><a href="history.php">History</a></li
                 ><li class="active"><a href="aboutus.php">About us</a></li
-                ><li><a href="kontakt.php">Kontakt</a></li>
+                ><li><a href="contact.php">contact</a></li>
             </ul>
         </nav>
         <h1>ABout Us</h1>

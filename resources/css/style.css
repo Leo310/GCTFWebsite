@@ -11,12 +11,20 @@ Black: #1a1b2c
     box-sizing: border-box;
 }
 
+body, html {
+    width: 100%;
+    height: 100%;
+
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     background: #290044;
     margin: 0;
     color: #ffe600bb; 
+    position: relative;
+    height: 10000px;
 }
 
 
@@ -24,30 +32,30 @@ body {
 
 .header-nav {
     font-family: 'Teeworlds';
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100px;
     background-color: #000133;
-    
 }
 
-.header-nav > a > img {
+.header-nav a > img {
     height: 100%;
     width: auto;
-    position: absolute;
-    left: .8rem;
+    float: left;
 }
 
-.header-nav > ul {
+.header-nav ul {
     margin: 0;
     padding: 0;
+    float: right;
     height: 100%;
     width: 70%;
-    position: absolute;
-    right: 0;
+
 }
 
-.header-nav > ul > li {
+.header-nav ul > li {
     display: inline-block;
     box-sizing: border-box;
     font-size: 2rem;
@@ -56,33 +64,101 @@ body {
     width: 25%;
 }
 
-.header-nav > ul > li > a {
+.header-nav ul > li > a {
     text-decoration-line: none;
     display: inline-block;
     margin-top: 2rem;
 }
 
-.header-nav > ul > li > a:link {
+.header-nav ul > li > a:link {
     color: #ffe600;
 }
 
-.header-nav > ul > li > a:visited {
+.header-nav ul > li > a:visited {
     color: #ffe600;
 }
 
-.header-nav > ul > li > a:hover {
+.header-nav ul > li > a:hover {
     color: #FFF;
 }
 
-.header-nav > ul > li > a:active {
+.header-nav ul > li > a:active {
     color: red;
 }
 
-.active {
-    background-color: rgb(55, 43, 226);
+.header-nav .container {
+    width: 100%;
+}
+.header-nav .container , .header-nav .row, .header-nav .col-6{
+    height: 100%;
+}
+.header-nav .col-6 {
+    padding: 0;
 }
 
+.active {
+    background-color: rgb(55, 43, 226) !important;
+}
+
+/* Navigation list mobile */
+
+.mobile-nav {
+    position: relative;
+    float: right;
+}
+
+.mobile-nav-button {
+    color: #ffe600;
+    font-size: 5rem;
+    border: 2px solid #ffe600;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    float: right;
+    margin-top: .6rem;
+    margin-right: .6rem;
+    margin-bottom: 10px;
+}
+
+.mobile-nav-button > span {
+    position: absolute;
+    bottom: -.6rem;
+    left: 1rem;
+}
+
+.mobile-nav:hover > .mobile-nav-content{
+    display: block;
+}
+
+.mobile-nav-content  {
+    top: 100px;
+    width: 250px;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.mobile-nav-content > ul {
+    width: 100%;
+}
+
+.mobile-nav-content > ul > li {
+    display: block;
+    background-color:  #000133;
+    width: 100%;
+    height: 100px;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/*header*/
 .banner-header {
+    margin-top: 100px;
+    box-sizing: unset;
     width: 100%;
     height: 0;
     padding-top: 19.85%;
@@ -93,4 +169,82 @@ body {
 h1 {
     font-family: Teeworlds;
     color: #ffe600; 
+}
+
+/* === Grid System === */
+
+.container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+ 
+[class*="col-"] {
+    float: left;
+    min-height: 1px;
+    padding: .8rem;
+}
+
+.col-1 {
+    width: 16.666%;
+}
+
+.col-2 {
+    width: 33.333%;
+}
+
+.col-3 {
+    width: 50%;
+}
+
+.col-6 { 
+    width: 100%;
+}
+
+/*Grid Sichtbarkeit
+.border, .border * {
+    border: 1px solid green;
+}
+
+[class*="col-"] {
+    float: left;
+    min-height: 1px;
+    padding: .8rem;
+    background-color: red;
+}
+
+p {
+    background-color: rgb(55, 43, 226);
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+}*/
+
+.small-nav {
+    display: none;
+}
+
+@media (max-width: 1150px)
+{
+    .small-nav{ display: block;}
+    .desktop-nav {display: none;}
+    .col-1 { width: 33.333%;}
+}
+
+@media ( max-width: 768px)
+{
+    .col-1 { width: 50%;}
+    .col-2 { width: 100%;}
+    .col-3 {width: 100%;}
+}
+
+@media (max-width: 480px) {
+    .col-1 { width: 100%;};
 }

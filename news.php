@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MGOD</title>
+    <title>GCTF</title>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
 </head>
 
@@ -20,9 +20,9 @@
 
                     <ul>
                         <li><a href="index.php">Home</a></li
-                        ><li><a href="history.php">History</a></li
-                        ><li class="active"><a href="aboutus.php">About us</a></li
-                        ><li><a href="contact.php">contact</a></li>
+                        ><li class="active"><a href="news.php">News</a></li
+                        ><li><a href="clans.php">Clans</a></li
+                        ><li><a href="history.php">History</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,13 +34,13 @@
                 <div class="col-6">
                     <a href="index.php"><img src="resources/img/TwIcon.png" alt="Home"></a>
                     <div class="mobile-nav clearfix">
-                        <div class="mobile-nav-button"><span>&equiv;</span></div>
+                    <div class="mobile-nav-button"><svg viewBox="0 0 32 32"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></div>
                         <div class="mobile-nav-content clearfix">
                             <ul>
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="history.php">History</a></li>
-                                <li class="active"><a href="aboutus.php">About us</a></li>
-                                <li><a href="contact.php">contact</a></li>
+                                <li><a href="index.php">Home</a></li
+                                ><li class="active"><a href="news.php">News</a></li
+                                ><li><a href="clans.php">Clans</a></li
+                                ><li><a href="history.php">History</a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
         </div>
     </nav>
     <header class="banner-header"></header>
-    <h1>ABout Us</h1>
+    <h1>News</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum, tellus eget pellentesque
         ullamcorper, metus dolor semper massa, eget interdum augue diam eu dui. Quisque sapien sem, posuere vel rutrum
         eget, auctor ac nulla. Vestibulum laoreet gravida tortor, sed pulvinar diam ultrices et. Sed id luctus nulla.

@@ -1,0 +1,15 @@
+
+.timelineelement {
+    width: 80%;
+    display: inline-block;
+}
+
+.before {
+    width: 10%;
+    
+}
+
+.next {
+    width: 10%;
+    
+}

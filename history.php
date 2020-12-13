@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GCTF</title>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/timeline.css">
+    <script src="timeline.js" async></script>
 </head>
 
 <body>
@@ -50,13 +52,18 @@
     </nav>
     <header class="banner-header"></header>
     <h1>History</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum, tellus eget pellentesque
-        ullamcorper, metus dolor semper massa, eget interdum augue diam eu dui. Quisque sapien sem, posuere vel rutrum
-        eget, auctor ac nulla. Vestibulum laoreet gravida tortor, sed pulvinar diam ultrices et. Sed id luctus nulla.
-        Suspendisse quis massa ut eros ornare hendrerit nec a lacus. Sed et elit in neque tincidunt volutpat. Sed
-        tristique ultricies arcu, id viverra magna venenatis id. Curabitur quis rutrum massa. Nullam tristique, turpis
-        quis pulvinar aliquam, ex purus eleifend dui, et semper tellus risus sit amet dui. Proin tristique in justo vel
-        gravida.</p>
+    <main class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="timelineelement before"><h1>Before</h1></div
+                ><div class="timelineelement"><h1>2001</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum, tellus eget pellentesque ullamcorper, metus dolor semper massa, eget interdum augue diam eu dui. Quisque sapien sem, posuere vel rutrum eget, auctor ac nulla. Vestibulum laoreet gravida tortor, sed pulvinar diam ultrices et. Sed id luctus nulla. Suspendisse quis massa ut eros ornare hendrerit nec a lacus. Sed et elit in neque tincidunt volutpat. Sed tristique ultricies arcu, id viverra magna venenatis id. Curabitur quis rutrum massa. Nullam tristique, turpis quis pulvinar aliquam, ex purus eleifend dui, et semper tellus risus sit amet dui. Proin tristique in justo vel gravida.</p></div
+                ><div class="timelineelement"><h1>2003</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum, tellus eget pellentesque ullamcorper, metus dolor semper massa, eget interdum augue diam eu dui. Quisque sapien sem, posuere vel rutrum eget, auctor ac nulla. Vestibulum laoreet gravida tortor, sed pulvinar diam ultrices et. Sed id luctus nulla. Suspendisse quis massa ut eros ornare hendrerit nec a lacus. Sed et elit in neque tincidunt volutpat. Sed tristique ultricies arcu, id viverra magna venenatis id. Curabitur quis rutrum massa. Nullam tristique, turpis quis pulvinar aliquam, ex purus eleifend dui, et semper tellus risus sit amet dui. Proin tristique in justo vel gravida.</div
+                ><div class="timelineelement"><h1>2006</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum, tellus eget pellentesque ullamcorper, metus dolor semper massa, eget interdum augue diam eu dui. Quisque sapien sem, posuere vel rutrum eget, auctor ac nulla. Vestibulum laoreet gravida tortor, sed pulvinar diam ultrices et. Sed id luctus nulla. Suspendisse quis massa ut eros ornare hendrerit nec a lacus. Sed et elit in neque tincidunt volutpat. Sed tristique ultricies arcu, id viverra magna venenatis id. Curabitur quis rutrum massa. Nullam tristique, turpis quis pulvinar aliquam, ex purus eleifend dui, et semper tellus risus sit amet dui. Proin tristique in justo vel gravida.</div
+                ><div class="timelineelement"><h1>2007</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum, tellus eget pellentesque ullamcorper, metus dolor semper massa, eget interdum augue diam eu dui. Quisque sapien sem, posuere vel rutrum eget, auctor ac nulla. Vestibulum laoreet gravida tortor, sed pulvinar diam ultrices et. Sed id luctus nulla. Suspendisse quis massa ut eros ornare hendrerit nec a lacus. Sed et elit in neque tincidunt volutpat. Sed tristique ultricies arcu, id viverra magna venenatis id. Curabitur quis rutrum massa. Nullam tristique, turpis quis pulvinar aliquam, ex purus eleifend dui, et semper tellus risus sit amet dui. Proin tristique in justo vel gravida.</div
+                ><div class="timelineelement next"><h1>Next</h1></div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

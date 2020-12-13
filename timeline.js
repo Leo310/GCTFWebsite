@@ -1,15 +1,13 @@
 boxElement = document.getElementsByClassName('timelineelement');
 
-var currentElement = 1;
+var currentElement = 0;
 
 if (boxElement) {
-    for(var i = 1; i < boxElement.length-1; i++)
+    for(var i = 0; i < boxElement.length; i++)
     {
         boxElement[i].style.display = "none";
     }
 
-    boxElement[0].addEventListener('click', beforeBox);
-    boxElement[boxElement.length-1].addEventListener('click', nextBox);
     boxElement[currentElement].style.display = "inline-block";
 }
 
@@ -18,8 +16,8 @@ function nextBox() {
 
     boxElement[currentElement].style.display = "none";
     currentElement++;
-    if(currentElement == boxElement.length-1)
-        currentElement = 1;
+    if(currentElement == boxElement.length)
+        currentElement = 0;
     boxElement[currentElement].style.display = "inline-block";
 }
 
@@ -28,7 +26,7 @@ function beforeBox() {
 
     boxElement[currentElement].style.display = "none";
     currentElement--;
-    if(currentElement == 0)
-        currentElement = boxElement.length-2;
+    if(currentElement < 0)
+        currentElement = boxElement.length-1;
     boxElement[currentElement].style.display = "inline-block";
 }

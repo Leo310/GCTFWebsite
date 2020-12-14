@@ -38,7 +38,7 @@
                                     <li class="active"><a href="index.php"><span tabindex="-1">Home</span></a></li
                                     ><li><a href="news.php"><span tabindex="-1">News</span></a></li
                                     ><li><a href="clans.php"><span tabindex="-1">Clans</span></a></li
-                                    ><li><a href="history.php"><span tabindex="-1">History</span></a></li>
+                                    ><li><a href="history.php"><span tabindex="-1">History</a></li>
                                 </ul>
                             </div>
                         </div>

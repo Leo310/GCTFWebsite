@@ -59,7 +59,7 @@
                 Gametype: gCTF<br>
                 Version: 0.7<br>
                 Participant-Limit: 2 players and 1 replacement<br><br><br>
-                <b>REGISTRATION</b><br>To register for the tournament, you have to join our <a class="hyperlink" href="https://discord.gg/tryveWXxHs">gCTF Community 0.7 Discord Server</a> <br>
+                <b>REGISTRATION</b><br>To register for the tournament, you have to join our <a class="hyperlink" href="https://discord.gg/tryveWXxHs">gCTF Community 0.7 Discord Server</a>.
                 If you don’t have Discord, you can’t participate as the organization and communication before, during and after the tournament will take place on that platform.
                 <br>
                 <br>
@@ -149,7 +149,7 @@
                             <p>bds</p>
                         </div>
                         <div class="col-3">
-                            <p>scuf, Chris, Breezy</p>
+                            <p>scuf, Chris Breezy</p>
                         </div>
                     </div>
                     <div class="row">

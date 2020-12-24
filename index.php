@@ -49,6 +49,18 @@
 
         <!-- Header Banner -->
         <header class="banner-header"><h1>Home</h1></header>
+        <main class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="ytvideo">
+                    <iframe src="https://www.youtube.com/embed/-kNlYc9Ya2U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">            
+                    <p style="text-align: center;"><b> By rqza, send him some love!!!</b></p>        
+                </div>
+            </div>
 
     </body>
 </html>
